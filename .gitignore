@@ -1,0 +1,82 @@
+# ====================================
+# Node.js dependencies
+# ====================================
+node_modules/
+pnpm-lock.yaml
+*.tsbuildinfo
+*.log
+*.local
+
+# ====================================
+# Build output
+# ====================================
+dist/
+build/
+.cache/
+web-build/
+dist-ssr/
+
+# ====================================
+# Monorepo: packages/core build
+# ====================================
+packages/core/dist/
+
+# ====================================
+# Environment files
+# ====================================
+.env
+.env.*
+!.env.example
+
+# ====================================
+# OS & editor
+# ====================================
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.orig.*
+*.pem
+
+# ====================================
+# Expo-specific
+# ====================================
+examples/native/.expo/
+examples/native/.expo-shared/
+examples/native/build/
+examples/native/expo-env.d.ts
+
+# ====================================
+# Android/iOS native signing
+# ====================================
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ====================================
+# Metro bundler
+# ====================================
+.metro-health-check*
+
+# ====================================
+# Debug logs
+# ====================================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+lerna-debug.*
+
+# ====================================
+# Example app custom ignores
+# ====================================
+examples/native/app-example
+
+# Optional: web example .vscode override file
+.vscode/extensions.json
