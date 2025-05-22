@@ -1,1 +1,2 @@
-export const hello = () => "Hello from doh-form!";
+export * from "./types";
+export * from "./useDOHForm";
